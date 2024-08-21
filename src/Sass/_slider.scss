@@ -1,17 +1,22 @@
 .slider-container {
   width: 100%;
-  height: 100%;
-  margin: 2rem 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
 }
+
+
+
 
 .item-slider {
   display: flex !important;
   justify-content: center !important;
-  align-items: center !important;
+  align-items: start !important;
   height: 75vh;
   width: 100% !important;
   overflow: hidden;
-  margin-top: 2rem;
+  margin-top: 6rem;
 }
 
 * {
@@ -39,10 +44,10 @@ color: gray !important;
 .ul-footer {
   display: flex;
   justify-content: space-between;
-  align-items: center !important;
+  align-items: end !important;
   width: 100%;
-  height: 2rem;
   padding: 0;
+
 
   h2 {
     color: gray;
@@ -55,9 +60,8 @@ color: gray !important;
   justify-content: space-between;
   align-items: center !important;
   width: 100%;
-  height: 2rem;
   padding: 0;
-  padding: 1rem 0;
+height: 1rem;  
 
   h2 {
     color: gray;

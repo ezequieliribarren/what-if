@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className='container-fluid p-0'>
       <ul className='ul-footer'>
         <div className='redes'>
-         <a target='_blank' href="https://www.instagram.com/whatif_architecture/"><img src="images/ig.png" alt="" /></a> 
+          <a target='_blank' href="https://www.instagram.com/whatif_architecture/"><img src="images/ig.png" alt="" /></a>
         </div>
         <div >
           <h2 className='h2-direccion'> <a target='_blank' href="https://maps.app.goo.gl/YWmxsqjxy2uDtG6E8
